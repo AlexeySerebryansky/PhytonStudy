@@ -1,6 +1,5 @@
 number = int(input('Enter your 4 digit number : '))
 
-
 CONST1000 = 1000
 CONST100 = 100
 CONST10 = 10
