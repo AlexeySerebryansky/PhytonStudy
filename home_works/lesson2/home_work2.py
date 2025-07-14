@@ -15,5 +15,8 @@ number4 = (number % CONST100) // CONST10
 number5 = (number % CONST10)
 
 print("Your number is : ", number)
-print("But its opposite number is : ")
-print(number5, number4, number3, number2, number1)
+
+print("But its opposite number is : ",
+      number5 * CONST10000 + number4 * CONST1000 + number3 * CONST100 + number2 * CONST10 + number1
+      )
+
