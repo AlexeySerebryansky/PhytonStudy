@@ -1,10 +1,11 @@
-lst = [12, 3, 4, 10]
+lst = [12, 3, 4, 10, 8]
 
 print(lst)
 
-lst.insert(0, lst[-1])
-lst.append(lst[1])
-lst.pop(-2)
-lst.pop(1)
+if len(lst) > 0:
+    lst.insert(0, lst[-1])
+    lst.pop()
+    print(lst)
+else:
+    print(lst)
 
-print(lst)
