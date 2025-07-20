@@ -10,5 +10,5 @@ for i in range(lst_len):
     lst.append(number)
 print(lst)
 
-lst2 = [lst[0], lst[1], lst[-1]]
+lst2 = [lst[0], lst[2], lst[-2]]
 print(lst2)
