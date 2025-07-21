@@ -1,4 +1,4 @@
-first_string = "Hello world!"
+# first_string = "Hello world!"
 
 # second_string = str(123)
 
@@ -28,5 +28,29 @@ first_string = "Hello world!"
 
 # print(".".join(["Hello", "world", "!"]))
 
-print(first_string.find("Hello"))
+# first_string = "Hello world!"
+# print(first_string.find("Hello"))
+# print(first_string.capitalize())
+
+# name_user = "Alexey"
+# age_user = 22
+
+# print("Hello %s!" % name)
+# print("Hello %s! Your age is %d" % (name, age))
+
+# print("Hello {name}! Your age is {age}".format(name = name_user, age = age_user))
+
+# print(f"Hello {name_user}! Your age is {age_user}!")
+
+# print(ord("A"))
+# print(ord("a"))
+# print(chr(40))
+
+# print(type(b"text"))
+
+# string = "hello"
+#
+# encoded = string.encode("UTF")
+# print(encoded)
+# decoded = encoded.decode("UTF")
 
