@@ -1,6 +1,6 @@
 import string
 
-user_input = "a-A"
+user_input = str(input("Enter your laters : "))
 
 start, end = user_input.split('-')
 
