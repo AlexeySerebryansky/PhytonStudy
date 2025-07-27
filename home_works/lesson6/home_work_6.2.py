@@ -1,4 +1,4 @@
-number = 224930
+number = int(input("Enter your numbers: "))
 
 DAY = 86400
 HOUR = 3600
