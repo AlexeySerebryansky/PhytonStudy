@@ -1,8 +1,23 @@
-input_number = 999
+import keyword
+import string
 
-dict_of_numbers = {}
 
-while input_number>0:
-   dict_of_numbers = dict_of_numbers.fromkeys([], input_number % 10)
+print("enter name of your value :")
+name_value = str(input())
 
-print(dict_of_numbers)
+if name_value in keyword.kwlist:
+   print(False)
+elif name_value[0].isdigit():
+   print(False)
+elif any(latters.isupper() for latters in name_value):
+   print(False)
+elif name_value.count("_") > 1:
+   print(False)
+elif not name_value:
+   print(False)
+elif any(char in string.punctuation.replace("_", " ") for char in name_value):
+   print(False)
+else:
+   print(True)
+
+
