@@ -4,7 +4,7 @@ def pow(x):
 def some_gen(begin: int, end, func):
     value = begin
     yield value
-    for _ in range(end - 1):
+    for i in range(end - 1):
         value = func(value)
         yield value
 
