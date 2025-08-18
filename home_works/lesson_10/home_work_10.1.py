@@ -1,7 +1,7 @@
-def pow(x):
+def pow(x: int) -> int:
     return x ** 2
 
-def some_gen(begin: int, end, func):
+def some_gen(begin: int, end: int, func):
     value = begin
     yield value
     for i in range(end - 1):
