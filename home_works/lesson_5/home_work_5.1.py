@@ -11,11 +11,13 @@ elif name_value[0].isdigit():
    print(False)
 elif any(latters.isupper() for latters in name_value):
    print(False)
-elif name_value.count("_") > 1:
+elif name_value.count("__") >= 1:
    print(False)
 elif not name_value:
    print(False)
-elif any(char in string.punctuation.replace("_", " ") for char in name_value):
+elif any(char in " " for char in name_value):
+    print(False)
+elif any(char in string.punctuation.replace("_", "") for char in name_value):
    print(False)
 else:
    print(True)
