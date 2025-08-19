@@ -1,7 +1,6 @@
 from typing import Iterator
 
 
-
 def generate_cube_numbers(end: int) -> Iterator[int]:
 
     for elem in range(2, end + 1):
