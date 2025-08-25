@@ -1,14 +1,14 @@
 import logging
 
 
-def division (a, b):
+def division(a, b):
     res = 0
     try:
         if b % 2 == 0:
             raise ValueError("Odd forbiden!")
         res = a / b
     except ZeroDivisionError:
-        print("Zerro deivision !")
+        print("Zero division !")
 
     except Exception as e:
         logging.error((f"Error: {e}"))
@@ -24,3 +24,5 @@ try:
 except ValueError:
     print("Valu error has been raised")
 # print(division(10, "5"))
+
+
